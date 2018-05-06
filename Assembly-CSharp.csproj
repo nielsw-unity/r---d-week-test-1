@@ -250,9 +250,6 @@
  <Reference Include="UnityEngine.SharedInternalsModule">
  <HintPath>C:/Dev/unity-spare/build/WindowsEditor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.SpatialTrackingModule">
- <HintPath>C:/Dev/unity-spare/build/WindowsEditor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.SpriteMaskModule">
  <HintPath>C:/Dev/unity-spare/build/WindowsEditor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
  </Reference>

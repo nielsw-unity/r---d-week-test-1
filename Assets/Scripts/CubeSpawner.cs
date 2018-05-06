@@ -9,7 +9,7 @@ public class CubeSpawner : MonoBehaviour {
 
 	void Start () 
 	{
-		const int gridSize = 24;
+		const int gridSize = 25;
 		const float spacing = 0.2f;
 
 		float cubeSizeX = prefab.transform.localScale.x + spacing;
@@ -39,9 +39,11 @@ public class CubeSpawner : MonoBehaviour {
 			
 			zPos += cubeSizeZ;
 		}
+
+		Debug.Log("Number of cubes spawned: " + gridSize*gridSize*gridSize);
 	}
 
-	// FIXME: add scaling-animation (and move that to ECS)	
+	// FIXME: add scaling-animation (and move that to ECS?)	
 	void Update () {
 		
 	}
